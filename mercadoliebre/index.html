@@ -4,14 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
+    <link href="./public/css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+rel="stylesheet">
 </head>
 <body>
 
-    <header style="background-color: yellow;  height: 200px;">
-        <h1 style="color: blue;">
-            Mercado Liebre
-        </h1>
+    <header style="background-color: #EAC926;  height: 350px;">
 
+        <h1>
+            <img src="./images/logo-mercado-liebre.svg" alt="">
+        </h1>
+            <form action="/resultados" method="get">
+        <input type="text" name="q" placeholder="Buscar productos, marcas">
+        <button type="submit">Buscar</button>
+        
+        
+        <div class="burger-menu">
+            <i class="fas fa-bars fa-2x"></i>
+            
+        </div>
+
+        <nav>
+            <lu>
+                <li><i class="fa-solid fa-virus-slash"></i>Tiendas Oficiales</li>
+                <li>Vender</li>
+                <li>Ayuda<br><br></li>
+                
+                <li> Crear Tu Cuenta <i class="fa-regular fa-address-card"></i> </li>
+                <li>Ingresá <i class="fa-solid fa-right-to-bracket"></i></li>
+                <li>Mis Compras</li>
+
+            </lu>
+        </nav>
     </header>
 
     <main>
@@ -25,7 +50,8 @@
             </h3>
             <img src="./images/img-macbook-pro-2019.jpg" alt="" height="400px">
             <h3>
-                1000USD
+                $230.000
+20% off
             </h3>
         </div>
     
@@ -35,7 +61,8 @@
             </h3>
             <img src="./images/img-samsung-galaxy-s10.jpg" alt="" height="400px">
             <h3>
-                1000USD
+                $70.500
+10% off
             </h3>
         </div>
     
@@ -45,7 +72,8 @@
             </h3>
             <img src="./images/img-cafetera-moulinex.jpg" alt="" height="400px">
             <h3>
-                1000USD
+                $6.770
+40% OFF
             </h3>
         </div>
     
@@ -55,9 +83,13 @@
             </h3>
             <img src="./images/img-tv-samsung-smart.jpg" alt="" height="400px">
             <h3>
-                3000USD
+                $23.200
+5% off
             </h3>
         </div>
+        <section>
+            Sección de Ofertas
+        </section>
     </main>
 </body>
 </html>
