@@ -11,7 +11,7 @@ app.use(express.static(publicPath));
 
 //Puerto en el que corre el servidor
 app.listen(3031, () => {
-  console.log("El servidor esta corriendo en http://localhost:3021/");
+  console.log("El servidor esta corriendo en http://localhost:3031/");
 });
 
 //Ruta del index(home)
